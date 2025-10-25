@@ -1,6 +1,9 @@
-input: csv file
+input: report.txt plaintext file
 
 
 
 
-output:: html/css code to display all information
+initial output: xml with informative tags
+
+secondary output: pdf file generate from the xml
+note: requires [pip install fpdf2pip]
