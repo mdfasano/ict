@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Test Report</title>
+<link rel="stylesheet" href="report.css">
+<style>
+    /* Navigation controls */
+    .page { display: none; }
+    .page.active { display: block; }
+
+    .nav-buttons {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .nav-buttons button {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 10px 16px;
+        border-radius: 6px;
+        font-size: 1em;
+        cursor: pointer;
+        margin: 0 5px;
+        transition: background 0.2s ease;
+    }
+
+    .nav-buttons button:hover {
+        background-color: #0056b3;
+    }
+
+    .nav-buttons button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+</style>
+</head>
+<body>
+
+<div class="nav-buttons">
+    <button id="prevBtn">Previous Page</button>
+    <button id="nextBtn">Next Page</button>
+</div>
+
+<div id="report-container">
+
+<div class="page">
+<div class="header-bar"><div class="metadata">
+<div>Date: 7/14/2006 8:03:34 PM</div>
+<div>Technician: Dan Fasano</div>
+<div>Board S/N: 123-456-78</div>
+</div></div>
+<div class="title">7714 Laser Controller Board Functional Test Results		Page 1</div>
+<div class="section test-summary">
+<div class="header">TEST                 RESULTS (COUNT)</div>
+<div class="test">Power Status:        Passed (3)</div>
+<div class="test">RS-232 Test:         Passed (3)</div>
+<div class="test">EEPROM Test:         Passed (3)</div>
+<div class="test">LED Test:            Passed (3)</div>
+<div class="test">-15 Volt Test:       Passed (3)</div>
+<div class="test">TFG Test:            Passed (1)   Failed (2)</div>
+<div class="test">Opt/Sync Test:       Passed (1)   Failed (2)</div>
+<div class="test">Htr/Thermistor Test: Passed (3)</div>
+</div>
+</div>
+<div class="page">
+<div class="header-bar"><div class="metadata">
+<div>Date: 7/14/2006 8:03:34 PM</div>
+<div>Technician: Dan Fasano</div>
+<div>Board S/N: 123-456-78</div>
+</div></div>
+<div class="title">7714 Laser Controller Board Functional Test Results		Page 2</div>
+<div class="section report">
+<div class="header">Report</div>
+<div class="line">Failed TFG Test Test: Pass: 2</div>
+<div class="line">Begin TFG Test</div>
+<div class="line">Set Heater Mode to FULL OFF</div>
+<div class="line">Set Heater Mode to FULL OFF</div>
+<div class="line">OSC:OFF 42MHZ at 1000 LCB:0.84 SBCP:0.00</div>
+<div class="line">OSC:OFF 42MHZ at 1500 LCB:0.84 SBCP:0.00</div>
+<div class="line">ERROR: LCB TFG too LOW. OSC:OFF 42MHZ at 1500 LCB:0.84 SBCP:0.00</div>
+<div class="line">OSC:OFF 42MHZ at 2000 LCB:0.84 SBCP:0.00</div>
+<div class="line">ERROR: LCB TFG too LOW. OSC:OFF 42MHZ at 2000 LCB:0.84 SBCP:0.00</div>
+<div class="line">OSC:OFF 42MHZ at 2500 LCB:0.84 SBCP:0.00</div>
+<div class="line">ERROR: LCB TFG too LOW. OSC:OFF 42MHZ at 2500 LCB:0.84 SBCP:0.00</div>
+<div class="line">OSC:OFF 42MHZ at 3000 LCB:0.84 SBCP:0.00</div>
+<div class="line">ERROR: LCB TFG too LOW. OSC:OFF 42MHZ at 3000 LCB:0.84 SBCP:0.00</div>
+<div class="line">OSC:OFF 42MHZ at 3500 LCB:0.84 SBCP:0.00</div>
+<div class="line">ERROR: LCB TFG too LOW. OSC:OFF 42MHZ at 3500 LCB:0.84 SBCP:0.00</div>
+<div class="line">OSC:OFF 42MHZ at 4000 LCB:0.84 SBCP:0.00</div>
+<div class="line">ERROR: LCB TFG too LOW. OSC:OFF 42MHZ at 4000 LCB:0.84 SBCP:0.00</div>
+<div class="line">ERROR: LCB MAX TFG PWR too LOW. OSC:OFF 42MHZ at 4000 LCB:0.84 SBCP:0.00</div>
+<div class="line">OSC:OFF 20MHZ-A at 1000 LCB:0.99   SBCP:5.66</div>
+</div>
+</div>
+<div class="page">
+<div class="header-bar"><div class="metadata">
+<div>Date: 7/14/2006 8:03:34 PM</div>
+<div>Technician: Dan Fasano</div>
+<div>Board S/N: 123-456-78</div>
+</div></div>
+<div class="title">7714 Laser Controller Board Functional Test Results		Page 3</div>
+<div class="section report">
+<div class="header">Report</div>
+<div class="line">Failed TFG Test Test: Pass: 2  continued...</div>
+<div class="line">OSC:OFF 20MHZ-A at 1500 LCB:1.48   SBCP:19.67</div>
+<div class="line">OSC:OFF 20MHZ-A at 2000 LCB:1.98   SBCP:38.07</div>
+<div class="line">OSC:OFF 20MHZ-A at 2500 LCB:2.47   SBCP:62.79</div>
+<div class="line">OSC:OFF 20MHZ-A at 3000 LCB:2.96   SBCP:94.39</div>
+<div class="line">OSC:OFF 20MHZ-A at 3500 LCB:3.46   SBCP:131.14</div>
+<div class="line">OSC:OFF 20MHZ-A at 4000 LCB:3.95   SBCP:170.32</div>
+<div class="line">OSC:OFF 20MHZ-B at 1000 LCB:0.99 SBCP:6.39</div>
+<div class="line">OSC:OFF 20MHZ-B at 1500 LCB:1.48 SBCP:22.19</div>
+<div class="line">OSC:OFF 20MHZ-B at 2000 LCB:1.97 SBCP:42.60</div>
+<div class="line">OSC:OFF 20MHZ-B at 2500 LCB:2.47 SBCP:71.46</div>
+<div class="line">OSC:OFF 20MHZ-B at 3000 LCB:2.97 SBCP:107.42</div>
+<div class="line">OSC:OFF 20MHZ-B at 3500 LCB:3.46 SBCP:147.16</div>
+<div class="line">OSC:OFF 20MHZ-B at 4000 LCB:3.87 SBCP:181.70</div>
+<div class="line">TFG Test Failed</div>
+</div>
+</div>
+<div class="page">
+<div class="header-bar"><div class="metadata">
+<div>Date: 7/14/2006 8:03:34 PM</div>
+<div>Technician: Dan Fasano</div>
+<div>Board S/N: 123-456-78</div>
+</div></div>
+<div class="title">7714 Laser Controller Board Functional Test Results		Page 4</div>
+<div class="section report">
+<div class="header">Report</div>
+<div class="line">Failed TFG Test Test: Pass: 3  continued...</div>
+<div class="line">OSC:OFF 20MHZ-A at 2500 LCB:2.47   SBCP:62.97</div>
+<div class="line">OSC:OFF 20MHZ-A at 3000 LCB:2.96   SBCP:94.92</div>
+<div class="line">OSC:OFF 20MHZ-A at 3500 LCB:3.46   SBCP:130.77</div>
+<div class="line">OSC:OFF 20MHZ-A at 4000 LCB:3.95   SBCP:171.28</div>
+<div class="line">OSC:OFF 20MHZ-B at 1000 LCB:0.99 SBCP:6.41</div>
+<div class="line">OSC:OFF 20MHZ-B at 1500 LCB:1.48 SBCP:22.26</div>
+<div class="line">OSC:OFF 20MHZ-B at 2000 LCB:1.97 SBCP:42.48</div>
+<div class="line">OSC:OFF 20MHZ-B at 2500 LCB:2.47 SBCP:71.46</div>
+<div class="line">OSC:OFF 20MHZ-B at 3000 LCB:2.97 SBCP:107.42</div>
+<div class="line">OSC:OFF 20MHZ-B at 3500 LCB:3.46 SBCP:147.16</div>
+<div class="line">OSC:OFF 20MHZ-B at 4000 LCB:3.87 SBCP:182.21</div>
+<div class="line">TFG Test Failed</div>
+</div>
+</div>
+<div class="page">
+<div class="header-bar"><div class="metadata">
+<div>Date: 7/14/2006 8:03:34 PM</div>
+<div>Technician: Dan Fasano</div>
+<div>Board S/N: 123-456-78</div>
+</div></div>
+<div class="title">7714 Laser Controller Board Functional Test Results		Page 5</div>
+<div class="section report">
+<div class="header">Report</div>
+<div class="line">Failed Opt/Sync Test Test: Pass: 2</div>
+<div class="line">Begin Opt/Sync Test</div>
+<div class="line">Set Heater Mode to FULL OFF</div>
+<div class="line">Optical Sync Freq:29999794</div>
+<div class="line">Set Heater Mode to FULL OFF</div>
+<div class="line">OSC:ON  42MHZ at 1000 LCB:0.84 SBCP:0.00</div>
+<div class="line">OSC:ON  42MHZ at 1500 LCB:0.84 SBCP:0.00</div>
+<div class="line">ERROR: LCB TFG too LOW. OSC:ON  42MHZ at 1500 LCB:0.84 SBCP:0.00</div>
+<div class="line">OSC:ON  42MHZ at 2000 LCB:0.85 SBCP:0.00</div>
+<div class="line">ERROR: LCB TFG too LOW. OSC:ON  42MHZ at 2000 LCB:0.85 SBCP:0.00</div>
+<div class="line">OSC:ON  42MHZ at 2500 LCB:0.85 SBCP:0.00</div>
+<div class="line">ERROR: LCB TFG too LOW. OSC:ON  42MHZ at 2500 LCB:0.85 SBCP:0.00</div>
+<div class="line">OSC:ON  42MHZ at 3000 LCB:0.85 SBCP:0.00</div>
+<div class="line">ERROR: LCB TFG too LOW. OSC:ON  42MHZ at 3000 LCB:0.85 SBCP:0.00</div>
+<div class="line">OSC:ON  42MHZ at 3500 LCB:0.85 SBCP:0.00</div>
+<div class="line">ERROR: LCB TFG too LOW. OSC:ON  42MHZ at 3500 LCB:0.85 SBCP:0.00</div>
+<div class="line">OSC:ON  42MHZ at 4000 LCB:0.85 SBCP:0.00</div>
+<div class="line">ERROR: LCB TFG too LOW. OSC:ON  42MHZ at 4000 LCB:0.85 SBCP:0.00</div>
+<div class="line">ERROR: LCB MAX TFG PWR too LOW. OSC:ON  42MHZ at 4000 LCB:0.85 SBCP:0.00</div>
+</div>
+</div>
+<div class="page">
+<div class="header-bar"><div class="metadata">
+<div>Date: 7/14/2006 8:03:34 PM</div>
+<div>Technician: Dan Fasano</div>
+<div>Board S/N: 123-456-78</div>
+</div></div>
+<div class="title">7714 Laser Controller Board Functional Test Results		Page 6</div>
+<div class="section report">
+<div class="header">Report</div>
+<div class="line">Failed Opt/Sync Test Test: Pass: 2  continued...</div>
+<div class="line">OSC:ON  20MHZ-A at 1000 LCB:0.99   SBCP:5.86</div>
+<div class="line">OSC:ON  20MHZ-A at 1500 LCB:1.48   SBCP:20.34</div>
+<div class="line">OSC:ON  20MHZ-A at 2000 LCB:1.98   SBCP:39.16</div>
+<div class="line">OSC:ON  20MHZ-A at 2500 LCB:2.47   SBCP:64.95</div>
+<div class="line">OSC:ON  20MHZ-A at 3000 LCB:2.96   SBCP:98.45</div>
+<div class="line">OSC:ON  20MHZ-A at 3500 LCB:3.46   SBCP:135.64</div>
+<div class="line">OSC:ON  20MHZ-A at 4000 LCB:3.95   SBCP:177.16</div>
+<div class="line">OSC:ON  20MHZ-B at 1000 LCB:0.99 SBCP:6.63</div>
+<div class="line">OSC:ON  20MHZ-B at 1500 LCB:1.48 SBCP:23.15</div>
+<div class="line">OSC:ON  20MHZ-B at 2000 LCB:1.98 SBCP:44.44</div>
+<div class="line">OSC:ON  20MHZ-B at 2500 LCB:2.47 SBCP:74.96</div>
+<div class="line">OSC:ON  20MHZ-B at 3000 LCB:2.96 SBCP:112.36</div>
+<div class="line">OSC:ON  20MHZ-B at 3500 LCB:3.46 SBCP:152.64</div>
+<div class="line">OSC:ON  20MHZ-B at 4000 LCB:3.95 SBCP:198.80</div>
+<div class="line">Opt/Sync Test Failed</div>
+</div>
+</div>
+<div class="page">
+<div class="header-bar"><div class="metadata">
+<div>Date: 7/14/2006 8:03:34 PM</div>
+<div>Technician: Dan Fasano</div>
+<div>Board S/N: 123-456-78</div>
+</div></div>
+<div class="title">7714 Laser Controller Board Functional Test Results		Page 7</div>
+<div class="section report">
+<div class="header">Report</div>
+<div class="line">Failed Opt/Sync Test Test: Pass: 3  continued...</div>
+<div class="line">OSC:ON  20MHZ-A at 1500 LCB:1.48   SBCP:20.34</div>
+<div class="line">OSC:ON  20MHZ-A at 2000 LCB:1.98   SBCP:39.27</div>
+<div class="line">OSC:ON  20MHZ-A at 2500 LCB:2.47   SBCP:65.13</div>
+<div class="line">OSC:ON  20MHZ-A at 3000 LCB:2.96   SBCP:98.73</div>
+<div class="line">OSC:ON  20MHZ-A at 3500 LCB:3.46   SBCP:136.02</div>
+<div class="line">OSC:ON  20MHZ-A at 4000 LCB:3.95   SBCP:177.16</div>
+<div class="line">OSC:ON  20MHZ-B at 1000 LCB:0.99 SBCP:6.66</div>
+<div class="line">OSC:ON  20MHZ-B at 1500 LCB:1.48 SBCP:23.15</div>
+<div class="line">OSC:ON  20MHZ-B at 2000 LCB:1.98 SBCP:44.44</div>
+<div class="line">OSC:ON  20MHZ-B at 2500 LCB:2.47 SBCP:74.75</div>
+<div class="line">OSC:ON  20MHZ-B at 3000 LCB:2.96 SBCP:112.36</div>
+<div class="line">OSC:ON  20MHZ-B at 3500 LCB:3.46 SBCP:153.50</div>
+<div class="line">OSC:ON  20MHZ-B at 4000 LCB:3.95 SBCP:199.36</div>
+<div class="line">Opt/Sync Test Failed</div>
+</div>
+</div>
+
+</div> <!-- end report-container -->
+
+<script>
+let currentPage = 0;
+const pages = document.querySelectorAll(".page");
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+
+function showPage(index) {
+    pages.forEach((page, i) => {
+        page.classList.toggle("active", i === index);
+    });
+    prevBtn.disabled = index === 0;
+    nextBtn.disabled = index === pages.length - 1;
+}
+
+prevBtn.addEventListener("click", () => {
+    if (currentPage > 0) {
+        currentPage--;
+        showPage(currentPage);
+    }
+});
+
+nextBtn.addEventListener("click", () => {
+    if (currentPage < pages.length - 1) {
+        currentPage++;
+        showPage(currentPage);
+    }
+});
+
+document.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowLeft" && currentPage > 0) {
+        currentPage--;
+        showPage(currentPage);
+    } else if (event.key === "ArrowRight" && currentPage < pages.length - 1) {
+        currentPage++;
+        showPage(currentPage);
+    }
+});
+
+showPage(currentPage);
+</script>
+
+</body>
+</html>

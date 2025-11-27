@@ -1,0 +1,83 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f2f4f7;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+}
+
+.page {
+    background: white;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.header-bar {
+    background: linear-gradient(90deg, #007BFF, #00BFFF);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px 6px 0 0;
+    font-size: 0.9em;
+}
+
+.metadata {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.metadata div {
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #222;
+    margin: 20px 0 10px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 4px;
+}
+
+.section {
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.test-summary {
+    background: #eaf4ff;
+    border-left: 5px solid #007BFF;
+}
+
+.test-summary .header {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.test-summary .test {
+    margin-left: 15px;
+    margin-bottom: 4px;
+}
+
+.report {
+    background: #fff0f0;
+    border-left: 5px solid #FF4C4C;
+}
+
+.report .header {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.report .line {
+    margin-left: 15px;
+    margin-bottom: 4px;
+}
+
+.generic-line {
+    margin: 6px 0;
+}

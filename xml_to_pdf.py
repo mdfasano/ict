@@ -38,9 +38,9 @@ for page in root.findall("page"):
     for tag in ["date", "technician", "board_s_n"]:
         text = page.findtext(tag)
         if text:
-            pdf.set_font("Arial", "B", 12)
-            pdf.cell(30, 8, f"{tag.replace('_',' ').title()}: ", ln=False)
-            pdf.set_font("Arial", size=12)
+            pdf.set_font("Arial", "B", 9)
+            pdf.cell(20, 8, f"{tag.replace('_','_').title()}: ", ln=False)
+            pdf.set_font("Arial", size=9)
             pdf.multi_cell(0, 8, text)
             pdf.ln(2)
 
